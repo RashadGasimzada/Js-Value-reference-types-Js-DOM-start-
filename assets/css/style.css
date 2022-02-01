@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+.element-box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-input {
+    width: 50%;
+}
+.my-btn {
+    margin: 10px;
+    width: 13%;
+}
+.result-input {
+    width: 318px;
+}
+.parent-box {
+    position: relative;
+}
+.my-icon {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
